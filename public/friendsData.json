@@ -6,7 +6,7 @@
     "email": "rafiul.hasan@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["university", "close friend"],
+    "tags": ["close friend"],
     "bio": "Met during first year at BUET. We used to pull all-nighters before exams together. Now he's working at a startup in Dhaka.",
     "goal": 14,
     "next_due_date": "2025-07-10"
@@ -78,7 +78,7 @@
     "email": "tanvir.ahmed99@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["college", "old friend"],
+    "tags": ["old friend"],
     "bio": "Best friends through college. We've drifted a bit since he moved to Canada for his masters but I want to keep that connection alive.",
     "goal": 30,
     "next_due_date": "2025-06-15"
@@ -102,7 +102,7 @@
     "email": "imran.hossain@gmail.com",
     "days_since_contact": 22,
     "status": "overdue",
-    "tags": ["cousin", "family friend"],
+    "tags": ["cousin"],
     "bio": "Grew up together at our grandparents' house every summer. We used to fish at the pond behind the village. Haven't talked properly in a while.",
     "goal": 14,
     "next_due_date": "2025-06-28"
@@ -138,7 +138,7 @@
     "email": "ruksana.begum@yahoo.com",
     "days_since_contact": 8,
     "status": "on-track",
-    "tags": ["school", "close friend"],
+    "tags": ["close friend"],
     "bio": "My closest friend from school. We went through a lot together — exams, heartbreaks, family troubles. She always picks up no matter when I call.",
     "goal": 10,
     "next_due_date": "2025-07-09"
