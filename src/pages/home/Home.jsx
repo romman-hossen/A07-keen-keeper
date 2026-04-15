@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
+import HomePage from "../../components/Home/Banner";
+import Card from "../../components/Home/Card";
+
 
 const Home = () => {
-    return (
-        <div>
-            <h3>This is home </h3>
-        </div>
-    );
+  return (
+    <div className="container mx-auto ">
+      <HomePage />
+      <Card />
+      
+     
+    </div>
+  );
 };
 
 export default Home;
