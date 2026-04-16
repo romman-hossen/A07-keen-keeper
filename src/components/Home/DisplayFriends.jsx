@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const DisplayFriends = ({friend}) => {
     // console.log(friend)
 
-const {picture,name,days_since_contact:days,tags,status} = friend;
+const {id,picture,name,days_since_contact:days,tags,status} = friend;
 // console.log(name,days,tags)
     return (
-        <div className='p-6 flex flex-col items-center bg-white space-y-2 rounded-lg shadow '>
-            <div className=''>
+        <Link to={`/friendDetails/${id}`} className='p-6 flex flex-col items-center bg-white space-y-2 rounded-lg shadow '>
+            <div>
                 <img className='rounded-full h-20 w-20' src={picture} alt={name} />
             </div>
             <h3 className='text-xl font-semibold mt-1'>{name}</h3>
@@ -18,7 +19,7 @@ const {picture,name,days_since_contact:days,tags,status} = friend;
                </div>)}
             </div>
             <button className={`badge rounded-full p-3 text-white ${status == "on-track" ? "bg-green-900": status == "overdue" ? "bg-orange-600":"bg-yellow-500"}`}>{status}</button>      
-        </div>
+        </Link>
     );
 };
 
