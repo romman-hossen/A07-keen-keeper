@@ -68,7 +68,7 @@ const DetailsRight = ({findData}) => {
         </div>
           <div className='bg-white p-6 rounded-lg shadow'>
                 <h3 className='text-xl font-bold text-green-950 mb-4'>Quick Check-In</h3>
-             <div className='grid grid-cols-3 gap-6'>
+             <div className='grid grid-cols-2 md:grid-cols-3 gap-6'>
                    <div onClick={() => handleCallData('call')} className='p-5 border border-gray-300 rounded-lg bg-gray-100 flex flex-col justify-center items-center '>
                     <FiPhoneCall className='text-3xl text-blue-950'/>
                     <p className='text-lg font-medium pt-2'>Call</p>

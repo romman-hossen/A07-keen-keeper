@@ -12,7 +12,6 @@ Keep your friendships alive — a friendship relationship manager that helps you
 - Daisy UI
 - Recharts
 
-
 ## ✨ Features
 
 - Track friends and see who you haven't contacted in a while
