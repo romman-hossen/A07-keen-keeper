@@ -5,9 +5,8 @@ import { PiVideoCameraBold } from 'react-icons/pi';
 import { FriendContext } from '../../components/context/FriendContext';
 import { toast } from 'react-toastify';
 
-const DetailsRight = ({findData,loading}) => {
-    const {allData,
-     setAllData} = useContext(FriendContext)
+const DetailsRight = ({findData}) => {
+    const {allData,setAllData} = useContext(FriendContext)
     
 
     const {name, days_since_contact:days,next_due_date: nextDue, goal} = findData;
