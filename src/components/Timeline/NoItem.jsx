@@ -9,7 +9,7 @@ const NoItem = () => {
         <p className="text-lg sm:text-xl text-gray-500">
           Start by adding a call, text, or video interaction.
         </p>
-        <Link to={'/'} className="btn bg-[#244D3F] text-white">
+        <Link to={'/'} className="btn bg-green-900 text-white">
           Go Home
         </Link>
       </div>
