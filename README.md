@@ -1,16 +1,39 @@
-# React + Vite
+# KeenKeeper 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Keep your friendships alive — a friendship relationship manager that helps you stay in touch with the people who matter most.
 
-Currently, two official plugins are available:
+## 🌐Live link (https://keen-keeper-comunication.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
 
-## React Compiler
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Daisy UI
+- Recharts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Track friends and see who you haven't contacted in a while
+- Log interactions (Call, Text, Video) and view them on a Timeline
+- Visualize your interaction history with a Pie Chart on the Stats page
+
+## 📄 Pages
+
+- **Home** — Friend cards in a grid with status indicators and summary cards
+- **Friend Detail** — Full profile with stats, goal, and quick check-in buttons
+- **Timeline** — Log of all interactions with filter by type
+- **Stats** — Pie chart showing Call / Text / Video breakdown
+- **404** — Custom not found page
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## 🌐 Deployment
+
+For client-side routing to work after deployment, add a `_redirects` file in the `public/` folder:
