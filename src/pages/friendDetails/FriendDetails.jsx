@@ -19,7 +19,6 @@ const FriendDetails = () => {
     return (
       <div className="flex justify-center min-h-[50vh] items-center">
         <PuffLoader color="#2D8C41" />
-        Looooding
       </div>
     );
   }
@@ -49,8 +48,8 @@ const FriendDetails = () => {
 
   return (
     <div className="container mx-auto my-20">
-      <div className="flex gap-6">
-        <div className="">
+      <div className="grid grid-cols-1 md:grid-cols-9 md:gap-6 px-5 ">
+        <div className="col-span-3">
           <div className="bg-white flex flex-col justify-center items-center space-y-3 p-8 shadow rounded-lg">
             <div>
               <img
@@ -98,8 +97,8 @@ const FriendDetails = () => {
             </span>
           </div>
         </div>
-        <div className=""                                         >
-            <DetailsRight findData={findData}/>
+        <div className="col-span-6"                                         >
+            <DetailsRight findData={findData} loading={loading}/>
         </div>
       </div>
     </div>

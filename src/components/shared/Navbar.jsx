@@ -12,7 +12,7 @@ const Navbar = () => {
     //     }
     // ]
     return (
-        <div className='shadow py-5 mb-[1px]'>
+        <div className='shadow py-5 mb-[1px] sticky top-0 z-50 bg-white'>
         <div className='flex flex-col items-center gap-6 md:flex-row justify-between max-w-[95%] mx-auto '>
             <div>
                 <img src={logo} alt="" />
